@@ -1,0 +1,32 @@
+
+# Compiled C++ executable files
+*.exe
+*.out
+*.o
+*.obj
+
+# Debug files
+*.pdb
+*.ilk
+*.stackdump
+
+# VS Code settings (ignore workspace-specific files if desired)
+.vscode/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.bak
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# CMake build files
+build/
+cmake-build-*/
+
+# Logs
+*.log
