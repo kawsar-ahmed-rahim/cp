@@ -1,0 +1,32 @@
+#include <iostream>
+#include<iomanip>
+#include <vector>
+#include <algorithm>
+using namespace std;
+
+int main() {
+    int a,c;
+    string b;
+    cin >> a >> b >> c;
+
+    if (b==">"){
+        if(a>c){
+            cout << "Right" << endl;
+        }else {
+            cout << "Wrong" << endl;
+        }
+    }else if (b=="<"){
+        if(a<c){
+            cout << "Right" << endl;
+        }else {
+            cout << "Wrong" << endl;
+        }
+    }else if (b=="="){
+        if(a==c){
+            cout << "Right" << endl;
+        }else {
+            cout << "Wrong" << endl;
+        }
+    }
+    return 0;
+}

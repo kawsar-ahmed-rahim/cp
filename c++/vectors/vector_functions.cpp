@@ -1,0 +1,77 @@
+#include<iostream>
+#include <vector>
+using namespace std;
+
+
+//! size
+int main() {
+    vector<int> vec = {'a','b','c'};
+    cout << "size = " << vec.size() << endl;
+     return 0;
+}
+
+//! push_back
+int main() {
+    vector<int> vec;
+    vec.push_back(26);
+    cout << "size = " << vec.size() << endl;
+
+    for(int val : vec) {
+        cout << val << endl;
+    }
+     return 0;
+}
+
+//! pop_back
+int main() {
+    vector<int> vec;
+    vec.push_back(26);
+    vec.push_back(28);
+
+    cout << "size = " << vec.size() << endl;
+
+    vec.pop_back();
+
+    
+
+    for(int val : vec) {
+        cout << val << endl;
+    }
+     return 0;
+}
+//! first value
+// ! cout << vec.front() << endl;
+
+//! last value
+//! cout << vec.back() << endl;
+
+//! particular value
+//! cout << vec.at(0) << endl;
+
+//! sort
+//! sort();
+
+//! single number
+// n^n=0
+//n^1=n
+
+
+int singleNumber(vector<int>& nums) {
+    int ans = 0;
+
+    for (int val : nums) {
+        ans = ans ^ val;
+    }
+
+    return ans;
+}
+
+int main() {
+    vector<int> nums = {4, 1, 2, 1, 2};
+
+    int result = singleNumber(nums);
+
+    cout << "Single number: " << result << endl;
+
+    return 0;
+}
