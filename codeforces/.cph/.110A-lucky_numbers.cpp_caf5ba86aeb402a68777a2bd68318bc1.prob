@@ -1,0 +1,1 @@
+{"name":"Local: 110A-lucky_numbers","url":"e:\\cp\\codeforces\\110A-lucky_numbers.cpp","tests":[{"id":1793646355089,"input":"1000000000000000000\n","output":"NO"},{"id":1793646377220,"input":"7747774\n","output":"YES"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\cp\\codeforces\\110A-lucky_numbers.cpp","group":"local","local":true}
