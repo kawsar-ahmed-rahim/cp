@@ -1,1 +1,0 @@
-{"name":"Local: 1676A-lucky","url":"e:\\cp\\codeforces\\1676A-lucky.cpp","tests":[{"id":1793861649435,"input":"5\n213132\n973894\n045207\n000000\n055776\n","output":"5\n213132\n973894\n045207\n000000\n055776\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\cp\\codeforces\\1676A-lucky.cpp","group":"local","local":true}
