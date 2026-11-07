@@ -1,0 +1,1 @@
+{"name":"Local: s-sum","url":"e:\\cp\\codeforces\\sheet_2\\s-sum.cpp","tests":[{"id":1794071278464,"input":"3\n5 6\n10 4\n4 9\n","output":"0\n21\n12\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\cp\\codeforces\\sheet_2\\s-sum.cpp","group":"local","local":true}
