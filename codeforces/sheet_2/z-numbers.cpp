@@ -3,20 +3,21 @@
 using namespace std;
 
 int main() {
-    int k, s, count = 0;
+    long long k, s;
     cin >> k >> s;
 
-    for (int x = 0; x <= k; x++) {
-        for (int y = 0; y <= k; y++) {
-            for (int z = 0; z <= k; z++) {
-                if (x + y + z == s) {
-                    count++;
-                }
-            }
+    long long ans = 0;
+
+    for (long long x = 0; x <= k; x++) {
+        long long low = max(0LL, s - x - k);
+        long long high = min(k, s - x);
+
+        if (low <= high) {
+            ans += high - low + 1;
         }
     }
 
-    cout << count << endl;
+    cout << ans << endl;
 
     return 0;
 }
