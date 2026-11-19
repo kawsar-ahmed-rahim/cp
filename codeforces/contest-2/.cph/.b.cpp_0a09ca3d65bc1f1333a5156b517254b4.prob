@@ -1,1 +1,0 @@
-{"name":"Local: b","url":"e:\\cp\\codeforces\\contest-2\\b.cpp","tests":[{"id":1795072540678,"input":"8 3\n4 -1 2 3 5 0 2 7\n","output":"-1 0 2 "},{"id":1795072655165,"input":"8 4\n4 -1 2 3 5 0 2 7\n","output":"-1 0"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\cp\\codeforces\\contest-2\\b.cpp","group":"local","local":true}
